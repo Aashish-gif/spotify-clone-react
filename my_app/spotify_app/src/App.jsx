@@ -20,7 +20,10 @@ import img16 from './image7.png'
 import img17 from './image6.png'
 import img18 from './i5.png'
 import img19 from './image10.png'
-
+import img20 from './image11.png'
+import img21 from './heart.png'
+import img22 from './fcen.png'
+import img23 from './opt.png'
 
 function App() {
 
@@ -29,7 +32,7 @@ function App() {
     <>
       <div id="spotify">
 <div id="sidebar">
-<div id="logo"><img src={img1} alt="logo" style={{height:"50px",width:"180px"}} /></div>
+<div id="logo"><img src={img1} alt="logo" style={{height:"60px",width:"190px"}} /></div>
 <div id='first'>
 <div id='home'>
   <div id='homeimg'><img src={img2} alt=""style={{height:"35px",width:"35px"}} /></div>
@@ -129,6 +132,16 @@ function App() {
 </div>
 
       </div>
+      <div id="footer">
+        <div id="imgp"><img src={img20} alt=""style={{height:"70px",width:"70px"}} / ></div>
+        <div id="t"><b>Dreaming On</b>
+        <br/>NEFFEX</div>
+        <div id="heart"><img src={img21} alt=""  style={{height:"30px",width:"30px"}}/></div>
+        <div id="fcen"><img src={img22} alt="" style={{height:"100px",width:"800px"}}/></div>
+        <div id="opt"><img src={img23} alt=""  style={{height:"45px",width:"350px"}} /></div>
+      </div>
+      
+
     </>
   )
 }

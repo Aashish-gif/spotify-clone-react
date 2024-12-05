@@ -1,5 +1,6 @@
 #spotify{
     display:flex;
+    background-color: rgb(32, 31, 31);
 }
 /* SIDE BOX */
 
@@ -113,4 +114,33 @@ margin-top: 50px;
 
     text-align: center;
     margin-top: 20px;
+}
+#footer{
+    display:flex;
+    margin-top:-135px ;
+   
+background-color: rgb(15, 14, 14);
+height: 200px;
+width: 100vw;
+}
+
+#imgp{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+#t{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+#heart{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+#fcen{
+    padding-top: 10px;
+    padding-left: 350px;
+}
+#opt{
+    padding-top: 60px; 
+    padding-left: 120px;
 }
